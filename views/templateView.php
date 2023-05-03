@@ -16,7 +16,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Зареєстровані учасники</a>
+                        <a class="nav-link" href="/ConferenceRegistration/home/index">Зареєстровані учасники</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/ConferenceRegistration/form/index">Форма реєстрації</a>

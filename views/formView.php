@@ -46,7 +46,7 @@
                             <input type="email" class="form-control" name="email" id="formEmail" placeholder="Вкажіть ваш email" required>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-dark">Зареєструватись</button>
+                            <button type="submit" class="btn btn-primary">Зареєструватись</button>
                         </div>
                     </form>
                 </div>
