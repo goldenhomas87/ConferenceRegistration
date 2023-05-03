@@ -1,11 +1,15 @@
 <?php 
 
-    class FormModel
+    class FormModel extends Model
     {
         public $db = null;
 
         public function __construct() {
             $this->db = Database::connect();
+        }
+
+        public function getData() 
+        {
         }
 
         public function insertData($data)

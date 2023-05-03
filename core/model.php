@@ -2,7 +2,11 @@
 
     class Model
     {
-        public function insertData()
+        public function getData() 
+        {
+        }
+
+        public function insertData($data)
         {
         }
     }
