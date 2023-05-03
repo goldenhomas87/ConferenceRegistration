@@ -18,12 +18,19 @@
                 $actionName = $routes[3];
             }
 
-            $controllerFileName = strtolower($controllerName).'Controller' . '.php';
+            $controllerFileName = strtolower($controllerName) . 'Controller' . '.php';
             $controllerFilePath = CONTROLLER_PATH . $controllerFileName;
             if (file_exists($controllerFilePath))
             {
                 include $controllerFilePath;
             }
+            
+            $modelFileName = strtolower($controllerName) . 'Model' . '.php';
+		    $modelFilePath = MODEL_PATH . $modelFileName;
+		    if(file_exists($modelFilePath))
+		    {
+			    include $modelFilePath;
+		    }
 
             $controllerFullName = ucfirst($controllerName) . 'Controller';
 

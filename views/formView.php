@@ -1,9 +1,23 @@
-<div class="container mt-5">
+<div class="container mt-5 pb-5">
     <div class="row">
         <div class="col-12 text-center">
             <h3>Форма реєстрації</h1>
         </div>
     </div>
+    <?php 
+        if (isset($data)) {
+            ?>
+                <div class="row d-flex justify-content-center mt-3">
+                    <div class="col-md-6 text-center">
+                        <div class="alert alert-success" role="alert">
+                            <?php echo $data ?>
+                        </div>
+                    </div>
+                </div>
+                
+            <?php
+        }
+    ?>
     <div class="row d-flex justify-content-center mt-4">
         <div class="col-md-6">
             <div class="card">
