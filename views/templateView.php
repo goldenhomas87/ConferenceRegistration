@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Запис на конференцію</a>
+            <a class="navbar-brand" href="/ConferenceRegistration">Запис на конференцію</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,7 +19,7 @@
                         <a class="nav-link" href="#">Зареєстровані учасники</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Форма реєстрації</a>
+                        <a class="nav-link" href="/ConferenceRegistration/form/index">Форма реєстрації</a>
                     </li>
                 </ul>
             </div>
